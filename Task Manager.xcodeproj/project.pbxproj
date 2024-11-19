@@ -48,16 +48,6 @@
 			path = "Task Manager";
 			sourceTree = "<group>";
 		};
-		9D909BFB2CE4615E00A1283D /* Task ManagerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Task ManagerTests";
-			sourceTree = "<group>";
-		};
-		9D909C052CE4615E00A1283D /* Task ManagerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Task ManagerUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				9D909BE42CE4615D00A1283D /* Task Manager */,
-				9D909BFB2CE4615E00A1283D /* Task ManagerTests */,
-				9D909C052CE4615E00A1283D /* Task ManagerUITests */,
 				9D909BE32CE4615D00A1283D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				9D909BFA2CE4615E00A1283D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9D909BFB2CE4615E00A1283D /* Task ManagerTests */,
-			);
 			name = "Task ManagerTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				9D909C042CE4615E00A1283D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9D909C052CE4615E00A1283D /* Task ManagerUITests */,
 			);
 			name = "Task ManagerUITests";
 			packageProductDependencies = (
